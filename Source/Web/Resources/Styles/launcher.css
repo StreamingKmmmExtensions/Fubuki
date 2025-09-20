@@ -1,0 +1,46 @@
+/* Elements */
+main {
+    display: grid;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+/* Classes */
+
+
+
+
+
+/* IDs */
+.app-box {
+    background-color: green;
+    display: grid;
+    column-count: 2;
+    /*justify-content: center;*/
+    justify-items: center;
+    outline: 2px solid black;
+
+    img {
+        width: 16px;
+        padding: 8px 0;
+    }
+}
+
+
+
+
+
+/* Media Selectors */
+@media (min-width: 800px) {
+    .app-box {
+        img {
+            width: 48px;
+        }
+    }
+}

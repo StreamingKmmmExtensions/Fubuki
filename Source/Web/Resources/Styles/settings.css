@@ -1,0 +1,29 @@
+/* Elements */
+main {
+    a {
+        border-radius: 0.5em;
+        border: 2px solid black;
+        margin-bottom: 1rem;
+
+        section {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            padding: 0.5rem;
+
+            img {
+                height: 64px;
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
+
+
+/* Classes */
+
+
+/* IDs */
+
+
+/* Media Selectors */

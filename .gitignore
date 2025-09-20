@@ -1,0 +1,5 @@
+Source/Include/Configuration.hpp
+~*
+*.docx
+*.xlsx
+*.tmp
