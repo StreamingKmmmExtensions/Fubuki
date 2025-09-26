@@ -1,6 +1,6 @@
-#include "Include/Server.hpp"
-#include "Include/DictionarySearchHandler.hpp"
-#include "Include/ExitHandler.hpp"
+#include "../Include/Server.hpp"
+#include "../Include/DictionarySearchHandler.hpp"
+#include "../Include/ExitHandler.hpp"
 
 
 

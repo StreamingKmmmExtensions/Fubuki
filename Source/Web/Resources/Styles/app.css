@@ -59,8 +59,31 @@ main {
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 1rem;
+    justify-content: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    font-size: 1.25em;
+
+    li {
+        margin: 0.25em;
+
+        a:active, a:link, a:visited, a:hover, a:focus, a:active {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    li:not(:last-child)::after {
+        content: "»";
+    }
 }
 
 ol {

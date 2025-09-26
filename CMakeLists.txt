@@ -8,10 +8,10 @@ add_compile_definitions(NO_SSL)
 add_executable(Server
         Source/CivetWeb/CivetServer.cpp
         Source/CivetWeb/civetweb.c
-        Source/DictionarySearchHandler.cpp
-        Source/ExitHandler.cpp
-        Source/Program.cpp
-        Source/sqlite3.c
-        Source/WebpageBuilder.cpp
+        Source/C++/DictionarySearchHandler.cpp
+        Source/C++/ExitHandler.cpp
+        Source/C++/Program.cpp
+        Source/C++/sqlite3.c
+        Source/C++/WebpageBuilder.cpp
         Source/Include/WebpageBuilder.hpp
         Source/Include/HTTP.h)

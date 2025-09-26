@@ -1,10 +1,10 @@
-#include "Include/Server.hpp"
-#include "Include/DictionarySearchHandler.hpp"
+#include "../Include/Server.hpp"
+#include "../Include/DictionarySearchHandler.hpp"
 
 #include <iostream>
 
-#include "Include/sqlite3.h"
-#include "Include/WebpageBuilder.hpp"
+#include "../Include/sqlite3.h"
+#include "../Include/WebpageBuilder.hpp"
 
 
 const std::string DictionarySearchHandler::SEARCH_QUERY =
@@ -65,7 +65,15 @@ bool DictionarySearchHandler::handleGet(CivetServer *server,
                 <input id="search-box" type="search" name="word" required />
 
                 <input type="submit" value="Search" />
-            </form>)");
+                </form>
+                <ul id="path-bar">
+                    <li class="list-button">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="list-button">
+                        <b>Dictionary</b>
+                    </li>
+                </ul>)");
     webpageBuilder->closeNav();
     webpageBuilder->append("<main>");
 

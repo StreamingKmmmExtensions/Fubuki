@@ -10,6 +10,6 @@
 #define PORT_NUMBER "12345"
 #define PRODUCT_REPOSITORY "https://www.blobwob.com"
 #define USER_DATA_PATH "D:\\Books"
-#define UI_ROOT "D:\\Documents\\Northwestern\\Fubuki\\Web\\src"
+#define UI_ROOT "C:\\Fubuki"
 
 #endif //SERVER_CONFIGURATION_TEMPLATE_H
