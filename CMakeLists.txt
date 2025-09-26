@@ -14,4 +14,5 @@ add_executable(Server
         Source/sqlite3.c
         Source/WebpageBuilder.cpp
         Source/Include/WebpageBuilder.hpp
-        Source/Include/HTTP.h)
+        Source/Include/HTTP.h
+        Source/Include/Document.h)
